@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'resources/**.svg'
+      - '.github/workflows/update-readme.yml'
 
   workflow_dispatch:
 
@@ -21,9 +22,9 @@ jobs:
         run: |
           TABLE="| 預覽 | 文件名 |\n| :---: | :--- |"
 
-          for svg in $(find ./resources -maxdepth 1 -name '*.svg' | sed 's|^\\./||' | sort); do
+          for svg in $(ls resources/*.svg 2>/dev/null | sort); do
             name="$(basename "${svg}" .svg)"
-            TABLE="${TABLE}\n| <img src=\"./${svg}\" alt=\"${name}\" height=\"48\"> | \`${svg}\` |"
+            TABLE="${TABLE}\n| <img src=\"${svg}\" alt=\"${name}\" height=\"48\"> | \`${svg}\` |"
           done
 
           # Replace content between markers
