@@ -1,0 +1,42 @@
+name: Update README Icon Table
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'resources/**.svg'
+
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate icon table
+        run: |
+          TABLE="| 預覽 | 文件名 |\n| :---: | :--- |"
+
+          for svg in $(find ./resources -maxdepth 1 -name '*.svg' | sed 's|^\\./||' | sort); do
+            name="$(basename "${svg}" .svg)"
+            TABLE="${TABLE}\n| <img src=\"./${svg}\" alt=\"${name}\" height=\"48\"> | \`${svg}\` |"
+          done
+
+          # Replace content between markers
+          awk -v table="$TABLE" '
+            /<!-- ICON_TABLE_START -->/ { print; printf "%s\n", table; skip=1; next }
+            /<!-- ICON_TABLE_END -->/ { skip=0 }
+            !skip { print }
+          ' README.md > README.tmp
+
+          mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "docs: update icon table" && git push)
