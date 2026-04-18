@@ -4,7 +4,7 @@
 
 ## 如何使用
 
-透過 GitHub Raw URL 直接引用：
+透過 Vercel 直接引用：
 
 ```
 https://icon.langya.io/resources/{filename}.svg
@@ -44,3 +44,7 @@ https://icon.langya.io/resources/{filename}.svg
 ## 許可證
 
 本項目的代碼部分採用 [MIT License](./LICENSE) 授權，但**不包含**倉庫中的品牌圖標資源。
+
+## 鳴謝
+
+特別感謝 [Vercel](https://vercel.com/) 提供本項目的託管服務。
