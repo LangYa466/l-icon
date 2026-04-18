@@ -35,6 +35,12 @@ https://icon.langya.io/resources/{filename}.svg
 | <img src="././resources/verizon.svg" alt="verizon" height="48"> | `./resources/verizon.svg` |
 <!-- ICON_TABLE_END -->
 
+## 版權免責聲明
+
+本倉庫中的所有品牌圖標、商標及 Logo 的版權歸其各自所有者所有。本項目僅對圖標進行了色彩適配調整（如暗色主題優化），不主張對原始設計的任何所有權。
+
+本項目中的圖標僅供個人學習與非商業用途使用。如果您是商標持有人並認為本倉庫侵犯了您的權益，請通過 [Issues](https://github.com/LangYa466/l-icon/issues) 聯繫我們，我們將及時處理。
+
 ## 許可證
 
-[MIT License](./LICENSE)
+本項目的代碼部分採用 [MIT License](./LICENSE) 授權，但**不包含**倉庫中的品牌圖標資源。
