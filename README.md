@@ -21,18 +21,18 @@ https://icon.langya.io/resources/{filename}.svg
 <!-- ICON_TABLE_START -->
 | 預覽 | 文件名 |
 | :---: | :--- |
-| <img src="././resources/alibabacloud-color.svg" alt="alibabacloud-color" height="48"> | `./resources/alibabacloud-color.svg` |
-| <img src="././resources/arelion.svg" alt="arelion" height="48"> | `./resources/arelion.svg` |
-| <img src="././resources/china-telecom.svg" alt="china-telecom" height="48"> | `./resources/china-telecom.svg` |
-| <img src="././resources/china-unicom.svg" alt="china-unicom" height="48"> | `./resources/china-unicom.svg` |
-| <img src="././resources/gsl.svg" alt="gsl" height="48"> | `./resources/gsl.svg` |
-| <img src="././resources/hurricane-electric.svg" alt="hurricane-electric" height="48"> | `./resources/hurricane-electric.svg` |
-| <img src="././resources/lumen.svg" alt="lumen" height="48"> | `./resources/lumen.svg` |
-| <img src="././resources/ntt.svg" alt="ntt" height="48"> | `./resources/ntt.svg` |
-| <img src="././resources/ovhcloud.svg" alt="ovhcloud" height="48"> | `./resources/ovhcloud.svg` |
-| <img src="././resources/pccw.svg" alt="pccw" height="48"> | `./resources/pccw.svg` |
-| <img src="././resources/tencentcloud-color.svg" alt="tencentcloud-color" height="48"> | `./resources/tencentcloud-color.svg` |
-| <img src="././resources/verizon.svg" alt="verizon" height="48"> | `./resources/verizon.svg` |
+| <img src="resources/alibabacloud-color.svg" alt="alibabacloud-color" height="48"> | `resources/alibabacloud-color.svg` |
+| <img src="resources/arelion.svg" alt="arelion" height="48"> | `resources/arelion.svg` |
+| <img src="resources/china-telecom.svg" alt="china-telecom" height="48"> | `resources/china-telecom.svg` |
+| <img src="resources/china-unicom.svg" alt="china-unicom" height="48"> | `resources/china-unicom.svg` |
+| <img src="resources/gsl.svg" alt="gsl" height="48"> | `resources/gsl.svg` |
+| <img src="resources/hurricane-electric.svg" alt="hurricane-electric" height="48"> | `resources/hurricane-electric.svg` |
+| <img src="resources/lumen.svg" alt="lumen" height="48"> | `resources/lumen.svg` |
+| <img src="resources/ntt.svg" alt="ntt" height="48"> | `resources/ntt.svg` |
+| <img src="resources/ovhcloud.svg" alt="ovhcloud" height="48"> | `resources/ovhcloud.svg` |
+| <img src="resources/pccw.svg" alt="pccw" height="48"> | `resources/pccw.svg` |
+| <img src="resources/tencentcloud-color.svg" alt="tencentcloud-color" height="48"> | `resources/tencentcloud-color.svg` |
+| <img src="resources/verizon.svg" alt="verizon" height="48"> | `resources/verizon.svg` |
 <!-- ICON_TABLE_END -->
 
 ## 許可證
