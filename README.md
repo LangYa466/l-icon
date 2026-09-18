@@ -23,6 +23,7 @@ https://icon.langya.io/resources/{filename}.svg
 | :---: | :--- |
 | <img src="resources/alibabacloud-color.svg" alt="alibabacloud-color" height="48"> | `resources/alibabacloud-color.svg` |
 | <img src="resources/arelion.svg" alt="arelion" height="48"> | `resources/arelion.svg` |
+| <img src="resources/china-mobile.svg" alt="china-mobile" height="48"> | `resources/china-mobile.svg` |
 | <img src="resources/china-telecom.svg" alt="china-telecom" height="48"> | `resources/china-telecom.svg` |
 | <img src="resources/china-unicom.svg" alt="china-unicom" height="48"> | `resources/china-unicom.svg` |
 | <img src="resources/gsl.svg" alt="gsl" height="48"> | `resources/gsl.svg` |
